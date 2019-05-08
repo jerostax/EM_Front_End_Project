@@ -1,0 +1,359 @@
+@media screen and (max-width: 940px) {
+    nav ul li{
+        margin-left: 0; 
+        font-size: 1em; 
+    }
+    #network {
+        margin-top: 80%;
+    }
+    #rob figcaption {
+        vertical-align: middle;
+
+    }
+    #rob figcaption::after {
+        
+        vertical-align: middle;
+    }
+    #seomoz {
+        width: 80px;
+        margin-left: 10px;
+    }
+}
+/*-----Tablettes----*/
+@media screen and (max-width: 750px) {
+    /*-----TOUR PAGE-----*/
+    .container {
+        margin:0 auto;
+    }
+    header .container {
+        margin: 0 auto;
+    }
+    h2, p {
+        margin-left: 2%;
+    }
+    section {
+        margin-left: 2%;
+    }
+    nav {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        border: 1px solid #eaeaea;
+        margin: 0 auto;
+        font-weight: bold;
+        transition-delay: 0.2s;
+        transition-duration: 1s;
+    }
+    nav ul li:hover {
+        background-color: #222222;
+    }
+    nav a {
+        transition-delay: 0.2s;
+        transition-duration: 1s;
+    }
+    nav a:hover {
+        color:  #ffffff;
+    }
+    nav ul {
+        margin: 0 auto;
+        padding-bottom: 2%;
+    }
+    #author q {
+        margin-left: 0;
+    }
+    #press img{
+        width: 12%;
+    }
+    #press p{
+        padding-top: 2%;
+        font-size: 0.8em;
+    }
+    #feature {
+        margin-top: 2%;
+    }
+    section img {
+        margin-left: 2%;
+    }
+    #sect2 img {
+        width: 80%;
+    }
+    #network {
+        margin-top:77%;
+    }
+    #sect6 img {
+        width: 80%;
+        text-align: center;
+    }
+    #sect7 .container {
+        flex-direction: column;
+    }
+    #connect {
+        flex-direction: column;
+    }
+    #description {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    #description h3, #description p {
+        padding-left: 5%;
+    }
+    #description h2 {
+        text-align: center; 
+    }
+    #allin1 {
+        width: 80%;
+        padding-right:0;
+    }
+    #sect9 .container{
+        flex-direction: column-reverse;
+    }
+    #com {
+        width: 80%;
+        padding-right: 0;
+    }
+    #sect10 img{
+        width: 80%
+    }
+    #sect11 .container {
+        flex-direction: column;
+    }
+    #rob {
+        margin-left: 12%;
+    }
+    #seomoz {
+        width: 150px;
+    }
+    #rob figcaption {
+        margin-left: 19%;
+    }
+    #sect12 .container {
+        flex-direction: column;
+    }
+    #slider-start {
+        width: 80%;
+        background: url(../img/large-cinema-display.png)center no-repeat;
+        background-size: contain;
+        margin: 0 auto;
+    }
+    #slider-start  .carousel1 img{
+        width: 90%;
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+    #slider-bottom {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #sect1 .slider-left > img {
+        margin-left: 30px;
+    }
+    #sect1 .slider-right > img {
+        margin-left: -55px;
+    }
+    #carousel2 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    #slider-start  .carousel1 img{
+        margin-top: 40%;
+    }
+    #slider-bottom >.slider-left {
+        margin-right:0;
+    }
+    #slider-bottom > .slider-right {
+        margin-left: 0;
+    }
+
+    #cloud, #optimized {
+        padding-right: 0;
+    }
+}
+    /*-----MOBILE-----*/
+@media screen and (max-width: 560px) {
+    /*-------TOUR PAGE-------*/
+    .container {
+        margin: 0 auto;
+    }
+    main {
+        margin: 0 auto;
+    }
+    nav ul {
+        padding-bottom:0;
+    }
+    #headbutton {
+        display: flex;
+        flex-direction: column;      
+    }
+    header h1 {
+        font-size: 2em;
+        padding-top: 20%;
+    }
+    header p {
+        padding-bottom: 15%;
+    }
+    #headimg:hover {
+        -webkit-transform: none;
+        transform: none;
+    }
+    .btn {
+        width: 38%;
+        text-align: center; 
+        margin-bottom: 5%;
+    }
+    #feature img {
+        margin-top: 3%;
+        padding-left: 3%;
+    }
+    #press .container {
+        height: 90px;
+    }
+    /*-------CAROUSEL 1-------*/
+    #slider-start {
+        height: 400px;
+        width: 80%;
+        background: url(../img/large-cinema-display.png)center no-repeat;
+        background-size: contain;
+    }
+    #slider-start  .carousel1 img{
+        width: 90%;
+        margin-top:20%;
+        margin-left: 5%;
+    }
+    /*------CAROUSEL 2------*/
+    #slider-bottom >.slider-left {
+        top:90px;
+    }
+    #slider-bottom > .slider-right {
+        top:90px;
+    }
+    #slider-bottom {
+        height: 26px;
+        width: 69%;
+        background: url(../img/sqsp-browser-yourbrand.png)center no-repeat;
+        background-size: contain;
+    }
+    #slider-bottom  .carousel2 img{
+        width: 98%;
+        margin-top: 0%;
+        margin-left: 1%;
+    }
+    #sect2  img {
+        margin: 0 auto;
+    }
+    #sect2 img{
+        margin-left: 10%;
+    }
+    .icon {
+        padding-bottom: 5%;
+    }
+    #network {
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    #network p h3{
+        font-size: 0.2em;
+    }
+    #network > img {
+        padding-right:0;
+    }
+    #description {
+        display:flex;
+        flex-direction: column;
+    }
+    #connect {
+        width: 100%;
+        font-size: 70%;
+    }
+    #sect6 img, #sect10 img{
+        margin-left: 10%;
+    }
+    #simpleblog {
+        background: url(../img/tour/tour-mobile.png)center no-repeat;
+        background-size: contain;
+    }
+    #allin1 {
+        background: url(../img/tour/tour-social-blob.png)center no-repeat;
+        background-size: contain;
+        margin: 0 auto;
+    }
+    #rob {
+        width: 90%;
+        margin-left: 10%;
+    }
+    #rob  figcaption {
+        margin-left: 35%;
+        width: 200px;
+    }
+    #seomoz {
+        width: 30%;
+        margin-left: 10%;;
+    }
+    #optimized i {
+        margin-top: 40%;
+    }
+    #optimized > q {
+        margin-left: 15%;
+    }
+    #domain, #cloud, #contributors, #optimized {
+        width: 100%;
+    }
+    #sect10 h2::after, #sect8 h2::after, #sect6 h2::after, #sect5 h2::after, #sect4 h2::after, #sect3 h2::after {
+        width: 60%;
+    }
+    #sect2 h2::after, #sect1 h2::after {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+   footer {
+       font-size: 80%;
+   }
+   footer > .container{
+       margin-left: 2%;
+   }
+   footer h3 {
+       text-align: center;
+   }
+   /*-------PRICE PAGE-------*/
+   .btn-4 {
+       display: block;
+       margin-top: 50%;     
+   }
+   #pricing:hover {
+    -webkit-transform: none;
+	transform: none;
+   }
+   #price-sect1 > .container {
+       width: 80%;
+       display: flex;
+       flex-direction: column;
+       margin-right: 15%;
+       margin-left:0;
+   }
+   .functions {
+       margin-bottom: 5%;
+   }
+   #price-sect2 {
+        font-size: 75%;
+   }
+}
+@media screen and (max-width: 380px) {
+    #slider-start  .carousel1 img{
+        margin-top: 40%;
+    }
+
+    #slider-bottom  .carousel2 img{
+        margin-top: 1%;
+        margin-left: 3%;
+        width: 100%;;
+    }
+}

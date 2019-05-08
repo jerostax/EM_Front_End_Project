@@ -1,0 +1,732 @@
+/*-----MEYER'S RESET-----*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b,  u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-----MEYER'S RESET END-----*/
+/*-----BODY-----*/
+body {
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+main p {
+    color: #777777;
+    text-align: left;
+    padding-bottom: 5%;
+    font-size: 1.2em;
+    padding-top: 2%;
+    line-height: 1.5em;
+}
+section {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-bottom: 1px solid #eaeaea;
+}
+/*-----TITLES-----*/
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 10%;
+    line-height: 1.7em;
+    word-spacing: 0.1em;
+}
+header h1::before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 0.25rem;
+    margin:0 auto;
+    background-color: #ffffff; 
+    margin-top: 15%;
+    margin-bottom: 5%;  
+}
+h2 {
+    text-transform: uppercase;
+    margin-top: 5%;
+    text-align: left;
+    color: #303030;
+    font-size: 1.7em;
+}
+h2::after {
+    content:"";
+    display: block;
+    width: 30%;
+    height: 0.25rem;
+    background-color: #222222;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+h3 {
+    text-transform: uppercase;
+    color: #303030;
+    font-size: 1.4em;
+    margin-bottom: 2%;
+}
+/*-----HEADER-----*/
+nav {
+    display: flex;
+}
+.fix-li {
+    color: #292929;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 1% 2% 1% 2%;
+    text-transform: uppercase;
+}
+nav a {
+    color: #cccccc;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+}
+nav a:hover {
+    color: #292929;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+nav ul {
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+#headimg {
+    width: 100%;
+    height: 800px;
+    background: url(../img/hero-tour.jpg)center no-repeat fixed;
+    background-size: cover;
+}
+
+header p, cite, q {
+    color: #ffffff;
+}
+header p {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-style: italic;
+    font-size: 1.2em;
+}
+#logo {
+    margin-top: 3%;
+}
+#author {
+    margin-left: 88%;
+    margin-top: 7.5%;
+}
+#author cite {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#author q {
+    font-size: 0.7em;
+    margin-left: 45%;
+}
+.btn {
+    border: 2px solid #fff186;
+    padding: 2.5% 5% 2.5% 5%;
+    border-radius: 50px;
+    color: black;
+    background-color: #fff186;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+}
+.btn-2 {
+    border: transparent;
+    background-color: transparent;
+    color: white;
+}
+.btn i {
+    padding-left: 1.5%;
+}
+#headbutton {
+    margin-left: 30%;
+}
+#press .container {
+    display:flex;  
+    height: 125px;;
+}
+#press {
+    background-color: #f5f5f5;
+}
+#feature {
+    width:100%;
+   margin-top: 5%;
+}
+#feature img {
+  padding-left: 4%;
+  color: #cccccc;
+}
+#press p {
+    color: #cccccc;
+    width: 15%;
+    margin-top: 5.7%;  
+}
+/*----------SECTIONS----------*/
+/*-----1ST SECTION-----*/
+#slider-start {
+    border: thin solid transparent;
+    position: relative;
+    width: 100%;
+    height: 616px;
+    background: url(../img/large-cinema-display.png)center no-repeat;
+}
+#slider-start > .carousel1 {
+    margin-top: 39px;
+    margin-right: 38px;
+    margin-bottom: 39px;
+    margin-left: 38px;
+}
+#slider-start > .slider-left {
+    position: absolute;
+    left: -60px;
+    top: calc(50% - 22px);
+}
+#slider-start > .slider-right {
+    position: absolute;
+    right: -60px;
+    top: calc(50% - 22px);
+}
+#sect1 h2, #sect2 h2 {
+    text-align: center;
+}
+#sect1 h2::after, #sect2 h2::after {
+    content:"";
+    display: block;
+    margin-left: 35%;
+}
+#sect1 p, #sect2 p{
+    text-align: center;
+}
+/*-----2ND SECTION-----*/
+#sect2, #sect4, #sect6, #sect8, #sect10 {
+    background-color: #f5f5f5;
+}
+#sect2 h2, #sect4 h2, #sect6 h2, #sect8 h2, #sect10 h2 {
+    padding-top: 5%;
+}
+#sect2 img {
+    margin-top: 5%;
+}
+#sect2 {
+    padding-bottom: 0;
+}
+/*-----3RD SECTION-----*/
+#sect3 img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7.5%;
+}
+/*-----4TH SECTION-----*/
+#sect4 img {
+    width: 80%;
+    margin-left: 10%;
+}
+/*-----5TH SECTION-----*/
+#sect5 p {
+    padding-bottom: 0;
+}
+#slider-bottom {
+    width: 100%;
+    height: 71px;
+    background: url(../img/sqsp-browser-yourbrand.png)center no-repeat;
+    position: relative;
+}
+.carousel2 {
+    width: 100%;
+    height: 570px;
+    margin-top: 4.5%;
+    position:relative;
+}
+#slider-bottom > .slider-left {
+    position: absolute;
+    left: -40px;
+    top: 285px;
+}
+#slider-bottom > .slider-right {
+    position: absolute;
+    right: -40px;
+    top: 285px;
+}
+#network {
+    display:flex;
+    margin-top:60%;
+}
+#network img {
+    padding-right: 3%;
+}
+#part1, #part2, #part3 {
+   padding-right: 5%;
+}
+#network p{
+    margin-bottom: 2%;
+}
+.icon {
+    padding-top:5%;
+}
+/*-----7TH SECTION-----*/
+#sect7 .container {
+    display: flex;
+    margin-top: 15%;
+}
+#mobile {
+    width: 81%;
+}
+#simpleblog {
+    width: 100%;
+    height: 570px;
+    background: url(../img/tour/tour-mobile.png)center no-repeat;
+}
+#sect7 h2::after {
+    width: 65%;
+}
+/*-----8TH SECTION-----*/
+#connect {
+    display:flex;
+}
+#allin1 {
+    width: 100%;
+    height: 580px;
+    background: url(../img/tour/tour-social-blob.png)center no-repeat;
+    padding: 0 5% 0 5%;
+}
+#description {
+    flex-direction: column;
+    width: 35%;
+}
+#connect h3,#connect p {
+   padding: 5% 0 5% 0;
+}
+/*-----9TH SECTION-----*/
+#com {
+    width: 100%;
+    height: 560px;
+    background: url(../img/tour/tour-comments.png)center no-repeat;
+    padding: 0 5% 0 5%;
+    margin-top: 10%;
+}
+#sect9 .container{
+    display: flex;
+}
+#comments {
+    width: 80%;
+    margin-top: 20%;
+}
+#sect9 h2::after {
+    content:"";
+    display: block;
+    width: 60%;
+    height: 0.25rem;
+    background-color: #222222;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+/*------10TH SECTION-----*/
+/*-----11TH BLOCK-----*/
+#optimized {
+    width: 60%;
+    margin-top: 3%;
+    padding-right: 5%;
+}
+#contributors {
+    width: 60%;
+    margin-top: 3%;
+}
+#sect11 .container {
+    display:flex;
+}
+#rob {
+    width: 90%;
+    height: 70px;
+    background-color:#58cb8e;
+    display:flex;
+    align-items: center;
+    margin-left: 10%;
+    position: relative;
+}
+#rob-pic {
+    border-radius: 50px;
+    left: -50px;
+    top:-12px;
+    position: absolute;
+}
+#rob figcaption {
+    color: #ffffff;
+    padding-top: 1%;
+    width: 200px;
+    margin-left: 35%;
+}
+#rob figcaption::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 40px;
+    background-color: #ffffff;  
+    vertical-align: middle;
+    margin-left: 20px;
+}
+#sect11 h2::after {
+    content:"";
+    display: inline-block;
+    width: 50%;
+    height: 0.25rem;
+    background-color: #222222;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+#seomoz {
+    width: 120px;
+    margin-left: 20px;  
+}
+#sect11 q {
+    color: #777777;
+    font-style: italic;
+    display: block;
+    padding-top: 10%;
+    line-height: 1.7em;
+    margin-left: 5%;
+    position:relative;
+}
+#optimized span {
+    font-size: 1.5em;
+    position: absolute;
+    left:-35px;
+    top:7%;
+}
+/*-----12TH SECTION-----*/
+#sect12 .container {
+    display:flex;
+}
+#cloud {
+    width:60%;
+    padding-right: 5%;
+}
+#domain {
+    width:45%;  
+}
+#free {
+    display:flex;
+}
+#free span {
+    margin-top:4%;
+    margin-left: 5%;
+    border: 1px solid #58cb8e;
+    background: #58cb8e;
+    border-radius: 5px;
+    width: 10%;
+    height: 20px;
+    text-align: center;
+    padding: 2% 2% 1% 2%;
+    color: #ffffff;
+    font-weight: bold;
+}
+#sect12 h2::after {
+    content:"";
+    display: block;
+    width: 60%;
+    height: 0.25rem;
+    background-color: #222222;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+/*-----FOOTER-----*/
+footer {
+    background-color: #181818;
+    min-height: 450px;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+#product, #company, #community, #try {
+    margin-top: 5%;
+}
+footer h3 {
+    color: #ffffff;
+}
+.btn-3 {
+    display: block;
+    margin-bottom: 10%;
+    width: 70%;
+    padding: 8% 12% 8% 12%;
+    text-align: center;
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+}
+.btn-3:hover {
+    opacity: 0.5;
+}
+#try img {
+    margin-top: 10%;
+}
+#try p {
+    color: #e5e5e5;
+    line-height: 2em;
+}
+footer ul li a{
+    line-height: 2em;
+    color: #3a3a3a;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+}
+footer ul li a:hover {
+    color: #e5e5e5;
+}
+footer ul {
+    margin-top: 20%;
+}
+/*------ PRICING PAGE-----*/
+/*-----HEADER-----*/
+#pricing {
+    width: 100%;
+    height: 800px;
+    background: url(../img/hero-pricing.jpg)center no-repeat;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+#pricing:hover {
+    -webkit-transform: scale(1.03);
+	transform: scale(1.03);
+}
+#headbutton2 {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.btn-4 {
+    background-color: #1c1c1c;
+    border-color: #1c1c1c;
+    color: #ffffff;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+}
+.btn-4:hover {
+    opacity: 0.5;
+}
+#pricing h1 {
+    word-spacing: 0.01em;
+}
+/*-----PRICE SECT1-----*/
+#price-sect1 .container {
+    display:flex;
+    margin-top: 5%;
+}
+.price-month {
+    background-color: #1c1c1c;
+    position: relative;
+}
+.functions {
+    background-color: #f7f7f7;
+    position: relative;
+}
+.functions ul li {
+    border: 1px solid #eaeaea;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #454545;
+}
+#price-sect1 h2{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5%;
+    letter-spacing: 0.3em;
+}
+#price-sect1 h2::after {
+    margin: 0 auto;
+    width: 55%;
+    background-color: #ffffff;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+.price-month .price-abo{
+    text-align: center;
+    color: #ffffff;
+}
+.bill {
+    font-size: 0.8em;
+    color: #454545;
+    text-align:center;
+}
+aside {
+    margin-left: 10%;
+    width: 100%;
+}
+.price-month span{
+    font-size: 4em;
+}
+.price-month sup {
+   font-size: 1.5em;
+   display: block;
+  margin-right: 30%;
+
+}
+#sup-left {
+    margin-right: 22%;
+}
+.functions .black {
+    color: #1c1c1c;
+    font-weight: bold;
+}
+#popular {
+    background-color: #58cb8e;
+    width: 20%;
+    height: 80px;
+    position: absolute;
+    margin-left: 90%;
+    top: -30px;
+    border-radius: 50px;
+    text-align: center;
+}
+#popular span {
+    font-size: 0.8em;
+    display: block;
+    margin-top: 27%;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1.4em;
+    text-transform: uppercase;
+}
+.price {
+    background-color: #58cb8e;
+    width: 11%;
+    height: 40px;
+    position: absolute;
+    margin-left: 70%;
+    top: 12%;
+    border-radius: 50px;
+    text-align: center;
+}
+.price span {
+    display:block;
+    margin-top: 33%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.functions ul li {
+    position:relative;
+}
+.functions ul li:hover .popup-description {
+    visibility: visible;
+}
+.popup-description {
+    transform-origin: 0% 0%;
+    visibility: hidden;
+    width: 300px;
+    height: 180px;
+    background-color:black;
+    z-index: 2;
+    position: fixed;
+    opacity: 0.9;
+    text-align: left;
+    color: white;
+    border-radius: 10px;
+}
+.popup-description span {
+    font-size: 2em;
+    font-style: italic;
+    padding-left: 5%;
+    padding-right: 3%;
+}
+.popup-description p {
+    padding: 5% 5% 0 8%;
+    font-size: 0.7em;
+    color: white;
+}
+.popup-description h4 {
+    padding-top: 3%;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 1em;
+    font-weight: bold;
+}
+/*-----PRICE 2ND SECTION-----*/
+#price-sect2 .container{
+    display:flex;
+}
+#price-sect2 h3 {
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#price-sect2 h3::after {
+    content:"";
+    display: block;
+    width: 100%;
+    height: 0.25rem;
+    background-color: #222222;
+    margin-top: 3%;
+    margin-bottom: 1.5%;
+}
+#sect2-b1 {
+    padding-right: 5%;
+}
+#price-sect2 a {
+    color: #58cb8e;
+}
+#price-sect2 span {
+    font-weight: bold;
+}
